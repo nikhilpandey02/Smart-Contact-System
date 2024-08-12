@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CHECKING</title>
+    <!-- Correctly linking the stylesheet -->
+    <link rel="stylesheet" href="/css/output.css">
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.css"
+          rel="stylesheet" />
+
+</head>
+<body>
+
+<div class="bg-gray-200 w-1/2 p-4 flex-col flex space-y-4 mx-auto mt-4 justify-center items-center">
+    <h1 class="text-2xl font-bold" th:text="${name}">
+        Welcome to my Page
+    </h1>
+    <p class="text-xl"><span>Hi</span></p>
+    <a th:href="${Github}">Click here</a>
+    <p class="p-4 mx-auto text-3xl">
+        "Success is not the result of spontaneous combustion. You must set yourself on fire."
+        This reminds us that achieving our goals requires consistent effort and passion—waiting
+        for the right moment won't get us there; we need to ignite our own path forward.
+    </p>
+    <button class="px-3 py-3 rounded bg-blue-700 text-white text-center hover:bg-blue-400">
+        Click here
+    </button>
+</div>
+
+<!-- flow bite content-->
+<script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
+
+
+</body>
+</html>
